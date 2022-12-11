@@ -1,0 +1,69 @@
+﻿@model WebAppMVCWeapon.Models.Weapon
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Weapon</h4>
+
+<body style="background-color:slategrey;">
+<hr />
+<div class="row" style="color:black">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <b>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WeaponTypeName" class="control-label"></label>
+                <input asp-for="WeaponTypeName" class="form-control" />
+                <span asp-validation-for="WeaponTypeName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="AmmoAmount" class="control-label"></label>
+                <input asp-for="AmmoAmount" class="form-control" />
+                <span asp-validation-for="AmmoAmount" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="RoundsPerShot" class="control-label"></label>
+                <input asp-for="RoundsPerShot" class="form-control" />
+                <span asp-validation-for="RoundsPerShot" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WeaponLevel" class="control-label"></label>
+                <input asp-for="WeaponLevel" class="form-control" />
+                <span asp-validation-for="WeaponLevel" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="ID" class="control-label"></label>
+                <input asp-for="ID" class="form-control" />
+                <span asp-validation-for="ID" class="text-danger"></span>
+            </div>
+            
+                </b>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" style="color:#000aaa;">Back to List</a>
+</div>
+
+</body>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,24 @@
+﻿Dev log 1 - Evy Avila
+
+I've used the same objects from the WPF project with using Weapons. I changed some 
+data types that were difficult before. There were no major blocks, however, I do
+question on whether the button commands were correct or if there is a better way
+of making them. I based it from a tutorial demonstration site. Another issue I 
+noticed was how the certain parameters didn't like to reference an interface,
+especially if needing to create a new weapon. Then, there was an issue with my
+reload weapon, but that was needing to include the MaxAmmoAmount. Finally,
+there was an issue of getting the ID number, but that was quickly fixed after
+realizing that I hadn't removed the comments to include the Id. 
+
+I did take a while to complete this, but part of it was fixing the issues and 
+also experimenting with colors, changing text, and styles.
+
+Dev log 2 - Evy Avila
+
+I tried using the custom DI for my site, but it cause many issues to the point that
+it wasn't working regardless of what I did. I reverted back to how it was before
+and used that for my testing. I have one class that test each method from Index, 
+Create, Edit, Details, Shoot, and Reload. Some use the static repo from the 
+WeaponController class and others use a new repo that was created for that class.
+
+I did refactor a section for the Weapon class to have an IWeapon.

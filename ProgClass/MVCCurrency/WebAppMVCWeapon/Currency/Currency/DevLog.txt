@@ -1,0 +1,56 @@
+﻿Dev Log 1 - Evy Avila
+
+Slight rant: Took way too long for me to complete, but I was trying to make sure I 
+understood each test and method. 
+
+I was able to get the tests to turn green at the end of the assignment. For the project
+itself, I don't fully understand when to use the methods MakeChange and CreateChange. I 
+assumed CreateChanged called MakeChange, in which the math takes place. A most likely
+technical debt as I just wanted to have the test pass. 
+
+My main concern is with MakeChangeTests. I noticed that in line 151, there was a cast
+for the class. However, the rest didn't contain a cast. I'm not sure if they were 
+missing a cast or it was intentinal. 
+That being said, I did a weird thing. As technical debt, I create a method which
+uses the class name, but contains the method name. It seems to remove the issue, but I find
+it wrong. If I use the original version of ICurrencyRepo, the test will complain and I
+would need to add a cast to each of them. 
+When I did add the cast, it did work correctly with using the ICurrencyRepo. I've kept both
+versions in the code, with one commented out.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dev Log 2 - Evy Avila
+
+I used Mexican Money as my international currency, which uses pesos.
+
+Key:
+Pesos mean weight, and are used from the ones place and up.
+Centavos translate as cents and operate the same.
+
+I decided to include banknotes along with the coins.
+
+Order from highest to lowest 
+
+Bank Notes:
+$1,000 pesos
+$500 pesos
+$200 pesos
+$100 pesos
+$50 pesos
+$20 pesos
+
+Coins:
+$10 pesos
+$5 pesos
+$2 pesos
+$1 pesos
+$0.50 centavos
+$0.20 centavos
+$0.10 centavos
+$0.05 centavos
+
+Note: I didn't know if the international currency repo needed its own version of a generic 
+currency repo, so I did make another one with the added bank notes and for the calculations.
+If I were to redo this, I would make it so the make change method include the list of the 
+currency for any coin and bank note.

@@ -1,0 +1,45 @@
+﻿@model WebAppMVCWeapon.ViewModels.RepoViewModel
+
+@{
+    ViewData["Title"] = "MakeChangeForMoney";
+}
+
+<h1>Make Change For Money</h1>
+
+<div>
+    <h4>Make Change for Money Repo</h4>
+    <hr/>
+    <form method="get">
+        <dl>
+            <dt>Locale</dt>
+            <dd>
+                @Html.DropDownList("Locale", (IEnumerable
+                <SelectListItem>)Model.LocalizationSelectList)
+            </dd>
+            <button>Update Locale</button>
+        </dl>
+    </form>
+
+    <dl class="dl-horizontal">
+        <dt>Total Value</dt>
+        <dd>@Model.TotalValue</dd>
+    </dl>
+    <dl class="dl-horizontal">
+         <dt>Bank Note Count Value</dt>
+        @foreach(var bank in Model.BankNotes)
+        {
+            <dd>@bank.Name @bank.MonetaryValue</dd>
+        }
+
+        <dt>Coin Count Value</dt>
+        @foreach(var coin in Model.Coins)
+        {
+            <dd>@coin.Name @coin.MonetaryValue</dd>
+        }
+    </dl>
+
+</div>
+<div>
+    
+    <a asp-action="Index">Back to List</a>
+</div>
