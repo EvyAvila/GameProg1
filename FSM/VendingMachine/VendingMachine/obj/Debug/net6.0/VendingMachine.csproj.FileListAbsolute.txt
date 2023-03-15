@@ -1,0 +1,15 @@
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\bin\Debug\net6.0\VendingMachine.exe
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\bin\Debug\net6.0\VendingMachine.deps.json
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\bin\Debug\net6.0\VendingMachine.runtimeconfig.json
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\bin\Debug\net6.0\VendingMachine.dll
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\bin\Debug\net6.0\VendingMachine.pdb
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.csproj.AssemblyReference.cache
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.AssemblyInfoInputs.cache
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.AssemblyInfo.cs
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.csproj.CoreCompileInputs.cache
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.dll
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\refint\VendingMachine.dll
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.pdb
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.genruntimeconfig.cache
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-07\VendingMachine\VendingMachine\obj\Debug\net6.0\ref\VendingMachine.dll
