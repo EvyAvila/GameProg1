@@ -1,0 +1,124 @@
+:- use_module(library(clpb)).
+/*
+Names from left to right: (Also provided in PDF)
+
+Great-grandmother - Mary
+Great-grandfather - Joe
+
+Great-grandmother - Sara
+Great-grandfather - Tim
+
+Grandmother - Annie
+Grandfather - Leon
+
+Mother - Isabel 
+Father - Ryan
+Uncle (blue shirt) - Freddy
+Aunt - Nora
+Uncle (yellow shirt) - Brian
+
+Brother - Fabio 
+Twin Sister - Abby
+Me - Ivy
+Husband - Dan
+Cousin's Wife - Amy
+Cousin - Billy
+Cousin (female) - Rose
+
+Daughter - Riley
+Son - John
+Niece - Holly
+Nephew - Jack
+
+*/
+
+male(joe).
+male(tim).
+male(leon).
+male(ryan).
+male(freddy).
+male(brian).
+male(fabio).
+male(dan).
+male(billy).
+male(john).
+male(jack).
+
+female(mary).
+female(sara).
+female(annie).
+female(isabel).
+female(nora).
+female(abby).
+female(ivy).
+female(amy).
+female(rose).
+female(riley).
+female(holly).
+
+/*Based on InClass Slides*/
+parent(mary,annie).
+parent(joe,annie).
+
+parent(sara,leon).
+parent(tim,leon).
+
+parent(annie,ryan).
+parent(leon,ryan).
+parent(leon,freddy).
+parent(annie,nora).
+
+parent(isabel,fabio).
+parent(ryan, fabio).
+parent(ryan, abby).
+parent(ryan, ivy).
+
+parent(nora,billy).
+parent(brian,billy).
+parent(nora, rose).
+
+parent(ivy, john).
+parent(dan, john).
+parent(ivy, riley).
+
+parent(billy, jack).
+parent(amy, jack).
+parent(billy, holly).
+
+1- Who is a nephew
+
+	isNephew(X) :- parent(Z, X), male(X), isSibling(Z,_).
+
+2- Who is a son
+
+	isSon(X) :- parent(_, X), male(X).
+
+3- Who is a daughter
+
+	isDaughter(X) :- parent(_, X), female(X).
+
+4- Who is a parent
+
+	/*Based on InClass Slides*/
+	isParent(X,Y) :- parent(X,Z),parent(Y,Z), X\==Y. 
+
+5- Who is a grandparent
+
+	/*Based on InClass Slides*/
+	isGrandparent(X, Y) :- parent(X, Z), parent(Z, Y).
+
+6- Who is a great grand parent
+
+	isGreatGrandparent(X,Y) :- parent(X,Z), parent(Z,A), parent(A, Y).
+
+7- Who is either an Aunt or an uncle
+
+	/*Based on InClass Slides with personal alternations*/
+	auncle(X):- isSibling(X,Z), isParent(Z, A), A\==Z.
+
+8- Who are siblings
+
+	/*Based on InClass Slides*/
+	isSibling(X,Y) :- parent(Z, X), parent(Z,Y), X\==Y.
+
+
