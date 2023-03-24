@@ -10,3 +10,15 @@ C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\
 C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-04\GraphApp\GraphApp\obj\Debug\GraphApp.exe
 C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-04\GraphApp\GraphApp\obj\Debug\GraphApp.pdb
 C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Wk-04\GraphApp\GraphApp\obj\Debug\GraphApp.GraphForm.resources
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\bin\Debug\GraphApp.exe.config
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\bin\Debug\GraphApp.exe
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\bin\Debug\GraphApp.pdb
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.csproj.AssemblyReference.cache
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.Form1.resources
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.GraphForm.resources
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.Properties.Resources.resources
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.csproj.GenerateResource.cache
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.csproj.CoreCompileInputs.cache
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.exe
+C:\Users\Evyav\source\GitHub\GameProg1\Graphs\GraphApp\GraphApp\obj\Debug\GraphApp.pdb
