@@ -1,0 +1,17 @@
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\bin\Debug\net6.0\FinalGameANN.exe
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\bin\Debug\net6.0\FinalGameANN.deps.json
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\bin\Debug\net6.0\FinalGameANN.runtimeconfig.json
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\bin\Debug\net6.0\FinalGameANN.dll
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\bin\Debug\net6.0\FinalGameANN.pdb
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\FinalGameANN.csproj.AssemblyReference.cache
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\FinalGameANN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\FinalGameANN.AssemblyInfoInputs.cache
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\FinalGameANN.AssemblyInfo.cs
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\FinalGameANN.csproj.CoreCompileInputs.cache
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\FinalGameANN.dll
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\refint\FinalGameANN.dll
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\FinalGameANN.pdb
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\FinalGameANN.genruntimeconfig.cache
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\obj\Debug\net6.0\ref\FinalGameANN.dll
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\bin\Debug\net6.0\EnemyInputData.txt
+C:\Users\Evyav\Desktop\Schoolwork\Columbia College Chicago Spring 2023 Semester\AI Programming\Final\FinalGameANN\FinalGameANN\bin\Debug\net6.0\EnemyOutputData.txt
